@@ -8,3 +8,6 @@ void main() async {
   await Firebase.initializeApp();
   runApp(MyApp(userRepository: FirebaseUserRepoImpl()));
 }
+
+// 42:15
+// https://www.youtube.com/watch?v=rgkaurIyso8
